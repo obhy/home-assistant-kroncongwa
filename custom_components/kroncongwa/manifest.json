@@ -1,0 +1,9 @@
+{
+  "domain": "kroncongwa",
+  "name": "Send WhatsApp Messages via KroncongWA",
+  "documentation": "https://github.com/obhy/home-assistant-kroncongwa",
+  "dependencies": [],
+  "codeowners": ["@obhy"],
+  "requirements": [],
+  "version": "1.0.0"
+}
