@@ -1,9 +1,3 @@
-Berikut adalah langkah-langkah untuk membuat file `LICENSE` dengan konten lisensi GPL-3.0 dan memastikan struktur repositori sesuai untuk HACS:
-
-### Langkah 1: Buat File LICENSE
-
-Buat file baru bernama `LICENSE` di root direktori repositori Anda dengan konten berikut:
-
 ```plaintext
 GNU GENERAL PUBLIC LICENSE
 Version 3, 29 June 2007
@@ -631,32 +625,3 @@ copy of the Program in return for a fee.
 
                      END OF TERMS AND CONDITIONS
 ```
-
-### Langkah 2: Struktur Repositori yang Benar
-
-Pastikan struktur direktori Anda seperti ini:
-
-```
-home-assistant-kroncongwa/
-├── custom_components/
-│   └── kroncongwa/
-│       ├── __init__.py
-│       ├── manifest.json
-│       └── notify.py
-├── .gitignore
-├── README.md
-├── LICENSE
-└── hacs.json
-```
-
-### Langkah 3: Tambahkan Repositori ke HACS
-
-Setelah memastikan struktur repositori sudah benar dan file `LICENSE` sudah ada, coba tambahkan repositori Anda ke HACS lagi:
-
-1. Buka Home Assistant.
-2. Pergi ke `HACS` > `Integrations`.
-3. Klik ikon tiga titik di kanan atas dan pilih `Custom repositories`.
-4. Masukkan URL repositori GitHub Anda (`https://github.com/obhy/home-assistant-kroncongwa`) dan pilih kategori `Integration`.
-5. Klik `Add`.
-
-Dengan mengikuti langkah-langkah ini, Anda seharusnya dapat mengatasi kesalahan struktur repositori dan menginstal integrasi melalui HACS tanpa masalah. Jika Anda masih mengalami masalah, pastikan untuk memeriksa log kesalahan dan menyesuaikan sesuai kebutuhan.
