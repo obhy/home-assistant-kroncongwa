@@ -1,6 +1,8 @@
 # Home Assistant KroncongWA Integration
-```markdown
+
 Send Home Assistant notifications to WhatsApp using [KroncongWA](http://notify.obhy.net).
+```markdown
+
 
 ## Installation
 
