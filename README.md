@@ -18,7 +18,7 @@ Send Home Assistant notifications to WhatsApp using [KroncongWA](https://notify.
 
    - After adding the repository, find the `KroncongWA` integration in HACS.
    - Click `Install`.
-
+   ```
 3. **Configuration**
 
    Add the following configuration to your `configuration.yaml`:
@@ -29,7 +29,7 @@ Send Home Assistant notifications to WhatsApp using [KroncongWA](https://notify.
        platform: kroncongwa
        api_key: "your api key"
        sender: "your phone number with country code prefix, e.g. 62888xxxx"
-   ```
+
 
 4. **Restart Home Assistant**
 
