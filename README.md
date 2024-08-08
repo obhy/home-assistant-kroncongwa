@@ -1,35 +1,24 @@
-# Home Assistant KroncongWA Integration
+### README.md
+Home Assistant KroncongWA Integration
 
 Send Home Assistant notifications to WhatsApp using [KroncongWA](http://notify.obhy.net).
+
 ```markdown
 
+## Installation via HACS
 
-## Installation
+1. **Add Custom Repository to HACS**
 
-1. **Create the Directory**
+   - Open Home Assistant.
+   - Go to `HACS` > `Integrations`.
+   - Click on the three dots in the top right corner and select `Custom repositories`.
+   - Add the URL of this repository (`https://github.com/obhy/home-assistant-kroncongwa`) and select `Integration` as the category.
+   - Click `Add`.
 
-   Create a directory called `kroncongwa` in the `custom_components` directory of your Home Assistant configuration.
+2. **Install the Integration**
 
-   ```sh
-   mkdir -p custom_components/kroncongwa
-   ```
-
-2. **Copy Files**
-
-   Copy the following files into the `kroncongwa` directory:
-
-   - `__init__.py`
-   - `manifest.json`
-   - `notify.py`
-
-   The structure should look like this:
-
-   ```
-   custom_components/kroncongwa/
-   ├── __init__.py
-   ├── manifest.json
-   └── notify.py
-   ```
+   - After adding the repository, find the `KroncongWA` integration in HACS.
+   - Click `Install`.
 
 3. **Configuration**
 
@@ -86,4 +75,4 @@ Replace `"62811xxxxxxx"` with the recipient's phone number.
 This project is licensed under the MIT License.
 ```
 
-Dengan file `README.md` ini, pengguna akan memiliki panduan yang jelas tentang cara menginstal dan menggunakan integrasi KroncongWA di Home Assistant. Jika ada perubahan atau penambahan yang diperlukan, silakan beri tahu saya.
+Dengan `README.md` ini, pengguna akan memiliki panduan yang jelas tentang cara menginstal dan menggunakan integrasi KroncongWA di Home Assistant melalui HACS. Jika ada perubahan atau penambahan lainnya yang diperlukan, silakan beri tahu saya.
