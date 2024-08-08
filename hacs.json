@@ -1,0 +1,10 @@
+{
+  "name": "KroncongWA",
+  "content_in_root": false,
+  "domain": "kroncongwa",
+  "documentation": "https://github.com/yourusername/home-assistant-kroncongwa",
+  "issue_tracker": "https://github.com/yourusername/home-assistant-kroncongwa/issues",
+  "codeowners": ["@obhy"],
+  "requirements": [],
+  "version": "1.0.0"
+}
