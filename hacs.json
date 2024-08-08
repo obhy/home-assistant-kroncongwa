@@ -2,8 +2,8 @@
   "name": "KroncongWA",
   "content_in_root": false,
   "domain": "kroncongwa",
-  "documentation": "https://github.com/yourusername/home-assistant-kroncongwa",
-  "issue_tracker": "https://github.com/yourusername/home-assistant-kroncongwa/issues",
+  "documentation": "https://github.com/obhy/homeassistant-kroncongwa-integration",
+  "issue_tracker": "https://github.com/obhy/homeassistant-kroncongwa-integration/issues",
   "codeowners": ["@obhy"],
   "requirements": [],
   "version": "1.0.0"
