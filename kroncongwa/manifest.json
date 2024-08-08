@@ -1,11 +1,9 @@
 {
-    "domain": "kroncongwa",
-    "name": "Send WhatsApp Messages via KroncongWA",
-    "codeowners": ["@obhy"],
-    "dependencies": [],
-    "documentation": "https://github.com/obhy/homeassistant-kroncongwa-integration",
-    "iot_class": "cloud_push",
-    "issue_tracker": "https://github.com/obhy/homeassistant-kroncongwa-integration/issues",
-    "version": "1.0.2"
-  }
-  
+  "domain": "kroncongwa",
+  "name": "Send WhatsApp Messages via KroncongWA",
+  "documentation": "https://github.com/obhy/home-assistant-kroncongwa",
+  "dependencies": [],
+  "codeowners": ["@obhy"],
+  "requirements": [],
+  "version": "1.0.0"
+}
