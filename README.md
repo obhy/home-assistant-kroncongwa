@@ -72,6 +72,3 @@ Replace `"62811xxxxxxx"` with the recipient's phone number.
 ## License
 
 This project is licensed under the MIT License.
-```
-
-Dengan `README.md` ini, pengguna akan memiliki panduan yang jelas tentang cara menginstal dan menggunakan integrasi KroncongWA di Home Assistant melalui HACS. Jika ada perubahan atau penambahan lainnya yang diperlukan, silakan beri tahu saya.
